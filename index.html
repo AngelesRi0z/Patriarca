@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriarca</title>
+</head>
+<body>
+  <body style="background-color: rgb(140, 128, 243);"></body>
+  <img src="src/escudo2.svg" alt="" width="250px">
+    <h1>Cajero</h1>
+    <h3>Bienvenid@ a la sección de movimientos.</h3>
+    <h5>Indica la operación que deseas realizar</h5>
+<!-- CAJERO-->
+    <form id = "cajero">
+        <div>
+            Depositar: <input type="text" id="deposito">
+            <button type="button" id = "depositar">Enter</button>
+        </div>
+        <div>
+            Retirar: <input type="text" id="retiro">
+            <button type="button" id = "retirar">Enter</button>
+        </div>
+        <div>
+            <button type="button" id="balance">Mostrar balance</button>
+            <p id="mostrarSaldo"></p>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
